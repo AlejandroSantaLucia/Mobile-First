@@ -1,0 +1,14 @@
+
+.main__tablesSection{
+  display: flex;
+  width: 100%;
+}
+
+.benefit__cardsContainer{
+  display: flex;
+}
+
+
+.plans__carrousel{
+  justify-content: center;
+}

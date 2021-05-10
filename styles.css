@@ -91,3 +91,378 @@ header img {
   display: inline-block;
 }
 
+
+main{
+background-color: var(--off-white);
+padding: 60px 0;
+}
+
+.mainExchange__img {
+  width: 195px;
+  height: 195px;
+  background-image: url("./assets/img/bitcoin.svg");
+  margin: 0 auto 40px;
+  background-size: cover;
+}
+
+.main__title-container{
+  margin: 0 17px
+}
+
+.mainExchange h2{
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.mainExchange p{
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  text-align: center;
+  color: #757575;
+  margin-bottom: 48px
+  ;
+}
+
+.mainExchange__table{
+  width: 70%;
+  min-width: 197px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.mainExchange__table h3{
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #FF9536;
+  margin-bottom: 12px;
+}
+
+.mainExchange__table h4{
+  font-family: "Inter", sans-serif ;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #B5B0AC;
+}
+.mainExchange__table h5{
+  font-family: "Inter", sans-serif ;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #757575;
+}
+
+
+.main__table-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-row-gap: 1px;
+  grid-template-areas: 
+  "bitcoinName bitcoinValue"
+  "ethereumName ethereumValue"
+  "rippleName rippleValue"
+  "stellarName stellarValue" ;
+}
+
+.table__bitcoinName{
+  grid-area: bitcoinName ;  
+  border-top-left-radius: 8px;
+}
+.table__bitcoinValue{
+grid-area:bitcoinValue ;
+color: #757575;
+border-top-right-radius: 8px;
+}
+
+.table__ethereumName{
+  grid-area:ethereumName ;
+}
+.table__ethereumValue{
+  grid-area: ethereumValue;
+  color: #757575;
+
+}
+
+.table__rippleName{
+  grid-area: rippleName;
+}
+.table__rippleValue{
+  grid-area: rippleValue;
+  color: #757575;
+
+}
+
+.table__stellarName{
+  grid-area: stellarName;
+  border-bottom-left-radius: 8px;
+}
+.table__stellarValue{
+  grid-area: stellarValue;
+  color: #757575;
+  border-bottom-right-radius: 8px;
+
+}
+
+.table__cell{
+  background: var(--just-white);
+  padding: 10px 12px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.table__cell  span{
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-image: url("./assets/icons/trending-up.svg");
+}
+.table__ethereumValue span {
+  background-image: url("./assets/icons/trending-down.svg")
+}
+
+.main__table-currentChange{
+  padding: 8px;
+  text-align: center;
+}
+
+.main__table-currentChange h4{
+  font-weight: 500;
+  align-self: center;
+  padding: 8px;
+  border-radius: 8px;
+  background: var(--soft-orange);
+  color: black;
+  font-size: 1.2rem;
+  margin-bottom: 70px;
+  }
+
+
+
+.benefits{
+  position: relative;
+  background-color: var(--warm-black);
+  padding: 5% 5% 10% 5%;
+
+}
+
+.bataLogo__container{
+  width: 41px;
+  height: 24px;
+  position: absolute;
+  top: -12px;
+  left: calc(50% - 20px);
+  background-image: url("./assets/img/logo2.svg");
+  background-position: top;
+}
+
+.benefits h2{
+  color: var(--just-white);
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  text-align: center;
+  margin-top: 64px;
+  margin-bottom: 24px;
+}
+
+.benefits p {
+  color: #808080;
+  font-size: 1.4rem;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.benefit__container{
+  background-color: var(--black);
+  padding: 16px 20px 22px 16px;
+  border-radius: 4px;
+  margin: 0 auto 16px;
+  max-width: 500px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.benefitLogo__container{
+  width: 24px;
+  height: 24px;
+  /* border: solid red 1px; */
+}
+.clockLogo__container{
+  background-image: url("./assets/icons/clock.svg");
+  
+}
+.eyeLogo__container{
+  background-image: url("./assets/icons/eye.svg");
+  
+}
+.cashLogo__container{
+  background-image: url("./assets/icons/dollar-sign.svg");
+  
+}
+.checkLogo__container{
+  background-image: url("./assets/icons/check-circle.svg");
+
+}
+
+
+
+
+.benefit__container p {
+  text-align: start;
+  margin-bottom: 0;
+}
+.benefit__container h3 {
+  font-size: 1.8rem;
+  color: var(--just-white);
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+
+
+.plans{
+  background-color: var(--off-white);
+}
+.plans h2{
+  font-weight: 700;
+  font-size: 2.4rem;
+
+}
+.plans h3{
+  font-size: 1.4rem;
+}
+.plans p{
+  font-size: 1.2rem;
+}
+
+
+.plans__meetHim{
+  background-image: url("./assets/img/bitcoinbaby.png");
+  height: 387px;
+  padding-top: 64px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  background-attachment: fixed
+}
+
+.plans__meetHim{
+  text-align: center;
+  color: var(--just-white);
+}
+
+.plans__titles{
+  text-align: center;
+  padding: 64px 5% 34px;
+
+}
+.plans__titles h3 {
+  margin-top: 24px;
+  color: #757575;
+}
+
+.plans__carrousel{
+  padding:  4rem ;
+  display: flex;
+  overflow-x: scroll;
+  overscroll-behavior-x: auto;
+  scroll-snap-type: x proximity
+}
+
+.plans__card{
+  scroll-snap-align: center;
+  background-color: var(--just-white);
+  border-radius: 4px;
+  width: 60%;
+  min-width: 200px;
+  max-width: 300px;
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+  position: relative;
+  text-align: center;
+  padding: 31px 16px 24px;
+  margin: 0 10px;
+}
+
+.plans__card .plans__card-signal{
+  width: 100px;
+  padding: 8px;
+  color: var(--just-white);
+  background-color: var(--bitcoin-orange);
+  position: absolute;
+  top: -15px;
+  left: calc(50% - 50px);
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+
+
+.plans .plans__card-price{
+ font-size: 5.2rem;
+ font-family: 'Inter', sans-serif;
+ font-weight: 700;
+ margin-top: 8px;
+}
+
+.plans .plans__card-price span{
+  font-size: 1.2rem;
+  vertical-align: 25px;
+  
+}
+
+.plans__card-promo{
+  color: #757575;
+  margin: 16px 0;
+}
+
+.plans__card-choose{
+  border: solid 2px var(--bitcoin-orange);
+  border-radius: 4px;
+  padding: 12px  16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--off-white);
+}
+
+.plans__card-choose div{
+  background-image: url("./assets/icons/arrow-right.svg");
+  width: 24px;
+  height: 24px;
+  background-position: center;
+  background-size: cover;
+  margin-left: 8px;
+}
+
+footer{
+  background-color: var(--bitcoin-orange);
+  
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px 0;
+ 
+  align-items: center;
+}
+footer ul li{
+  list-style: none;
+  margin-top: 8px;
+}
+footer ul li a{
+  text-decoration: none;  
+  font-size: 1.4rem;
+  color: var(--just-white); 
+  line-height: 1.8rem;
+}
+
+
+
+.footer__logo-container{
+  width: 64px;
+  height: 50px;
+  background-image: url("./assets/img/logo2.svg");
+}
